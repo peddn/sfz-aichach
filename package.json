@@ -1,0 +1,32 @@
+{
+  "name": "sfz-aichach",
+  "version": "0.1.0",
+  "description": "The Startpage of the IT infrastructure of the SFZ Aichach.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peddn/sfz-aichach.git"
+  },
+  "author": "Peter Schmid",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/peddn/sfz-aichach/issues"
+  },
+  "homepage": "https://github.com/peddn/sfz-aichach#readme",
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "css-loader": "^3.4.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
