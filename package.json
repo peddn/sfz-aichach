@@ -1,6 +1,6 @@
 {
   "name": "sfz-aichach",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Startpage of the IT infrastructure of the SFZ Aichach.",
   "main": "webpack.config.js",
   "scripts": {
