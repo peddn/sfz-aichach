@@ -110,5 +110,5 @@ releases-bin
 data
 
 # downloads folder
-dist/downloads
+downloads
  
