@@ -108,3 +108,7 @@ releases-bin
 
 # personal data
 data
+
+# downloads folder
+dist/downloads
+ 
