@@ -1,6 +1,13 @@
 require('../scss/main.scss');
 
-import '@fortawesome/fontawesome-free/js/all'
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+
+import { faFileUpload } from '@fortawesome/free-solid-svg-icons';
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faFileUpload, faFileDownload);
+dom.watch();
+
 
 document.addEventListener("DOMContentLoaded", () => {
     // get all close buttons and register the click Event
